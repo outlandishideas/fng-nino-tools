@@ -13,7 +13,7 @@ http://www.fakenamegenerator.com/license.php
 
 */
 
-class fngnino{
+class FngNino{
 
 	// For more information on NINO, see:
 	// http://www.govtalk.gov.uk/gdsc/schemas/CitizenIdentificationTypes-v1-4.xsd
@@ -74,9 +74,9 @@ class fngnino{
 /*
 // Generate a NINO
 
-$fngnino = new fngnino();
+$fngnino = new FngNino();
 
-echo $fngnino->generateNINO(2);
+echo $FngNino->generateNINO(2);
 */
 
 
