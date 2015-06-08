@@ -39,7 +39,7 @@ class Nino{
 			$secondAllowed = array('A','B','C','E','G','H','J','K','L','M','N','P','R','S','T','W','X','Y','Z');
 
 			// Keep generating until we get a permitted group
-			while(in_array($group1,$notAllowed) || !isset($group1)){
+			while(!isset($group1) || in_array($group1,$notAllowed)){
 				$group1 = $firstAllowed[mt_rand(0,count($firstAllowed)-1)].$secondAllowed[mt_rand(0,count($secondAllowed)-1)];
 			}
 			
