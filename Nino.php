@@ -1,5 +1,7 @@
 <?php
 
+namespace Outlandish\Fng;
+
 /*
 FNG UK National Insurance Number Generator and Validator v1.2
 Copyright © 2009 Fake Name Generator <http://www.fakenamegenerator.com/>
@@ -13,7 +15,7 @@ http://www.fakenamegenerator.com/license.php
 
 */
 
-class FngNino{
+class Nino{
 
 	// For more information on NINO, see:
 	// http://www.govtalk.gov.uk/gdsc/schemas/CitizenIdentificationTypes-v1-4.xsd
